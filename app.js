@@ -29,7 +29,8 @@ const indexRoutes = require("./routes/index");
 
 
 //APP CONFIG
-mongoose.connect(process.env.DATABASEURL)
+const url = process.env.DATABASEURL || "mongodb://localhost:27017/trech_app"
+mongoose.connect(url)
 //mongoose.connect("mongodb+srv://Isdorer:erod@trech.7vnblih.mongodb.net/test");
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
