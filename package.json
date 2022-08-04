@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "async": "^3.2.4",
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.4",
+    "nodemailer": "^6.7.7",
+    "passport": "^0.6.0",
+    "passport-local-mongoose": "^7.1.2",
+    "request": "^2.88.2"
+  },
+  "name": "trechapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "isdore",
+  "license": "ISC",
+  "description": ""
+}

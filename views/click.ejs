@@ -1,0 +1,21 @@
+<%- include ("./partials/header") %>
+<div class="send-mail">
+<h1>Send us an email</h1>
+     <form action="/send_email" method="post">
+   <label>Name:</label>
+   <input class="name" type="text" name="name" id="name" placeholder="Full Name" required><br>
+
+    <label>Email:</label>
+    <input class="email" type="email" id="from" name="email" placeholder="email" required><br>
+
+   
+
+    <label>Text</label>
+    <input class="message" type="text" name="message" id="message" placeholder="how can we help you"><br>
+    <button class="submit" value="send">submit</button>
+    </form>
+  </div>
+
+
+    
+    <%- include ("./partials/footer") %>
