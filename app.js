@@ -29,7 +29,7 @@ const indexRoutes = require("./routes/index");
 
 
 //APP CONFIG
-mongoose.connect("mongodb://localhost/trech_app");
+mongoose.connect("mongodb+srv://Isdorer:erod@trech.7vnblih.mongodb.net/test");
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
