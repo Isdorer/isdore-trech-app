@@ -14,6 +14,8 @@ const dotContainer = document.querySelector(".dots")
 const slider = document.querySelector(".slider")
 slider.style.transform = "scale(0.7)"
 
+
+
 let CurSlide = 0
 const maxSlide = slides.length
 
