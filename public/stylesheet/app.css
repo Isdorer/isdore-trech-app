@@ -721,6 +721,7 @@ animation: slide 20s infinite;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
+		
 	}
 		  
 	   .slider {
@@ -858,13 +859,13 @@ animation: slide 20s infinite;
 			.box {
 	
 				background-color: white;
-				height: 130px;
-				width: 180px;
+				height: 120px;
+				width: 160px;
 				padding: 5px;
 				border: 2px solid black;
 				border-radius: 5px;
 				box-shadow: 10px 10px 20px ;
-				margin: 10px;
+				margin: 5px;
 			}
 			.box p {
 				font-size: smaller;
