@@ -1,5 +1,21 @@
 <%- include ("./partials/header") %>
-<form action="/reset/<%= token %>" method="POST"></form>
+<div class="container">
+  <form  action="/reset/<%= token %>" method="POST" >
+   
+    <div class="form-floating mb-3">
+    	<label for="inputPassword">Password</label>
+      <input type="password" class="form-control form-control-sm" value="" id="inputPassword" placeholder="Password">
+    </div>
+
+    <div class="form-floating mb-3">
+    	<label for="inputPassword">confirm Password</label>
+      <input type="password" class="form-control form-control-sm" name="confirm" value=""  placeholder="confirm Password">
+    </div>
+    
+    <button type="submit" class="btn btn-primary btn-sm">update password</button>
+  </form>
+</div>
+<!--<form action="/reset/<%= token %>" method="POST"></form>
   <label>password</label>
   <input type="password" name="password" value="" placeholder="password" />
   <label>confirm password</label>
@@ -10,5 +26,5 @@
     placeholder="confirm password"
   />
   <button type="submit">update password</button>
-</form>
+</form>-->
 <%- include ("./partials/footer") %>

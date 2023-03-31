@@ -1,5 +1,26 @@
 <%- include ("./partials/header") %>
-<div class="sign-up">
+
+<div class="container">
+  <form action="/register" method="POST">
+    <div class="form-floating mb-3">
+    <label for="username">Username:</label>
+    <input type="text" class="form-control form-control-sm"name="username" id="username" placeholder="Enter your username" required>
+  </div>
+
+    <div class="form-floating mb-3">
+    	<label for="inputEmail">Email address</label>
+      <input type="email" class="form-control form-control-sm" name="email" id="inputEmail" placeholder="Email" required>
+      
+    </div>
+    <div class="form-floating mb-3">
+    	<label for="inputPassword">Password</label>
+      <input type="password" class="form-control form-control-sm" name="password" id="inputPassword" placeholder="Password" required>
+      
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Sign up</button>
+  </form>
+</div>
+<!--<div class="sign-up">
   <h1>Register form</h1>
 <form action="/register" method="POST">
     <label>Username:</label>
@@ -12,5 +33,5 @@
     <input class="email" type="email" name="email" placeholder="email" required/><br>
     <button class="submit">submit</button>
   </form>
-</div>
+</div>-->
   <%- include ("./partials/footer") %>

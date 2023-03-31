@@ -101,7 +101,7 @@ router.get("/explore", isLoggedIn, (req, res) => {
     if (req.isAuthenticated()) {
       return next();
     }
-    req.flash("error", "you need to be logged in to access the explore page")
+    req.flash("error", "you need to be logged in to access the explore page");
     res.redirect("/login");
   }
 
